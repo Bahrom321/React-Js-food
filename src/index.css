@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, rgba(214, 43, 43, 0.856), rgba(125, 248, 100, 0.788));
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-1{
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-right: 1rem;
+    border-radius: 8px;
+    border:none;
+}
+input::focus{
+    border:none;
+}
+.button-1{
+    padding: 0 1.5rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1px solid white;
+    cursor: pointer;
+    color:white;
+    border-radius: 8px;
+}
+.button-1:hover{
+    background-color:white;
+    color:black;
+    transition: 1s;
+}
+.text{
+    width: 50%;
+    margin: auto;
+    align-items:center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color:white;
+    text-shadow: 1px 0px 5px;
+}
+.print{
+    margin: 5rem;
+    text-align: center;
+}
+
+.product{
+    background-color:rgba(255, 255,255, 0.295);
+    padding: 25px;
+    align-items:center;
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.img-2{
+    width: 150px;
+    box-shadow: 3px 3px 50px white;
+}
+.button-2{
+    margin: 15px;
+    padding: 10px 25px;
+    background-color:transparent;
+    border:1px solid white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button-2:hover{
+    background-color:white;
+    color:black;
+    transition: 1s ease-in-out;
+}
+p{
+    color:rgba(0,0,155, );
+    text-shadow: 3px 0px 10px ;
+}
+.a-2{
+    text-decoration: none;
+
 }
